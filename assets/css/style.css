@@ -1,6 +1,19 @@
 /* Criando variáveis globais para alinhas com o figma. */
 :root{
   --g1: #DFFFF5;
+  --g2: #C8FEEE;
+  --g3: #A7F0DA;
+  --g4: #85E1C5;
+  --g5: #68D5B4;
+  --g6: #4EC39F;
+  --g7: #34AD88;
+  --g8: #209975;
+  --g9: #1A8867;
+  --g10: #0F7455;
+  --g11: #095F45;
+  --12: #044934;
+  --13: #073B2B;
+  --14: #032D20;
 }
 
 /* Body */
@@ -16,7 +29,7 @@ body{
   width: 100px;
   height: 40px;
   color: white;
-  background-color: #032D20;
+  background-color: var(--14);
   border-radius: 4px;
   text-transform: uppercase;
   font-size: 1.2rem;
