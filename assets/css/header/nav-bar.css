@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.nav-bar{
+  background-color: #DFFFF5;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 165px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.contato{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+}
+
+#logo{
+  color: #032D20;
+  font-size: 2.5rem;
+  font-family: 'Ephesis', cursive;
+  line-height: 110%;
+}
+
+.logo-spacing{
+  margin-left: 20px;
+}
