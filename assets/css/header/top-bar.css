@@ -1,0 +1,16 @@
+/* Header */
+.top-bar{
+  height: 40px;
+  background-color: #032D20;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.top-bar-info{
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
