@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 .nav-bar{
-  background-color: #DFFFF5;
+  background-color: var(--g1);
   height: 90px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 165px;
-}
-
-.nav-bar ul {
-  list-style-type: none;
-  display: flex;
 }
 
 .contato{
@@ -31,3 +26,19 @@
 .logo-spacing{
   margin-left: 20px;
 }
+
+.nav-bar ul {
+  color: #032D20;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  width: 511px;
+  align-items: center;
+}
+
+.nav-bar ul li{
+  flex-grow: 1;
+}
+
