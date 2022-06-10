@@ -6,11 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .top-bar-info{
   display: flex;
-  height: 40px;
+  height: 35px;
   align-items: center;
 }
