@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+main > *{
+    padding: 100px 165px;
+}
+
+.sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.sobre p{
+  font-size: 1.3rem;
+}
+
+.sub-titulo{
+  font-family: 'Ephesis', cursive;
+  font-size: 3.75rem;
+  display: block;
+  text-align: center;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
