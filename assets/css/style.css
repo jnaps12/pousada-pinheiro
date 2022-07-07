@@ -11,9 +11,9 @@
   --g9: #1A8867;
   --g10: #0F7455;
   --g11: #095F45;
-  --12: #044934;
-  --13: #073B2B;
-  --14: #032D20;
+  --g12: #044934;
+  --g13: #073B2B;
+  --g14: #032D20;
 }
 
 /* Body */
@@ -29,7 +29,7 @@ body{
   width: 130px;
   height: 40px;
   color: white;
-  background-color: var(--14);
+  background-color: var(--g14);
   border-radius: 4px;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -38,7 +38,7 @@ body{
 }
 
 .botao:hover{
-  background-color: #095F45;
+  background-color: var(--g11);
 }
 
 .botao a{
