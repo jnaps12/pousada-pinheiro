@@ -14,7 +14,10 @@
   --g12: #044934;
   --g13: #073B2B;
   --g14: #032D20;
+<<<<<<< HEAD
   --border: #28735C;
+=======
+>>>>>>> b828f5beeeb77870202ccac9d7c8fc61b3c31fe2
 }
 
 /* Body */
@@ -41,7 +44,7 @@ body{
 }
 
 .botao:hover{
-  background-color: #095F45;
+  background-color: var(--g11);
 }
 
 .botao a{

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .localizacao{
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 1.3rem;
+=======
+.map{
+  border-radius: 5px;
+>>>>>>> b828f5beeeb77870202ccac9d7c8fc61b3c31fe2
 }
