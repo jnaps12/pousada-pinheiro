@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 
-main > *{
-    padding: 100px 165px;
+main > div{
+    padding: 80px 165px;
 }
 
 .sobre{
@@ -13,13 +13,6 @@ main > *{
 
 .sobre p{
   font-size: 1.3rem;
-}
-
-.sub-titulo{
-  font-family: 'Ephesis', cursive;
-  font-size: 3.75rem;
-  display: block;
-  text-align: center;
 }
 
 img{
