@@ -2,4 +2,5 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 1.3rem;
+  gap: 80px;
 }
