@@ -1,0 +1,13 @@
+.card-room{
+  width: 85%;
+  height: 450px;
+  background-color: #e2e2e2;
+  margin: 30px auto;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.card-room:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #FAFAFA;
+}
