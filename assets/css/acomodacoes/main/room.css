@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 .card-room{
-  width: 85%;
+  position: relative;
+  width: 75%;
   height: 450px;
   background-color: #e2e2e2;
   margin: 30px auto;
@@ -15,6 +19,29 @@
   background-color: #FAFAFA;
 }
 
+.card-room .informations{
+  padding: 0px 3rem;
+}
+
+.card-room h1{
+  color: var(--g12);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.informations ul{
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-top: 7rem;
+}
+
+.informations ul li{
+  margin-bottom: 20px;
+}
+
+.informations ul img{
+  width: 25px;
+}
 
 .photo{
   height: 450px;
@@ -22,4 +49,44 @@
 
 .photo img{
   height: 100%;
+}
+
+.valor{
+  font-size: 3rem;
+  text-align: center;
+  color: var(--g12);
+  margin-top: 3.5rem;
+}
+
+.bar-effect{
+  width: 420px;
+  height: 5px;
+  background-color: var(--g10);
+  position: absolute;
+  right: 469px;
+  top: 127px;
+}
+
+.tipo-quarto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  font-size: 2.5rem;
+  margin: 50px auto 35px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.solteiro{
+  cursor: pointer;
+}
+
+.casal{
+  cursor: pointer;
+}
+
+.selected{
+  color: var(--g10);
+  border-bottom: 3px solid var(--g10);
+  transition: 500ms;
 }
