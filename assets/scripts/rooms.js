@@ -26,6 +26,6 @@ casalBtn.addEventListener("click", () => {
   v1.textContent = "R$ 120,00";
   v2.textContent = "R$ 140,00";
 
-  imgSolteiro.src = "./assets/imgs/room1.png";
+  imgSolteiro.src = "./assets/imgs/room2.png";
   imgCasal.src = "./assets/imgs/room2.png";
 });
