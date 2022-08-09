@@ -20,6 +20,8 @@
 
 
   <link rel="stylesheet" href="/assets/css/footer/main.css">
+  
+  <link rel="stylesheet" href="/assets/css/responsividade/index.css">
   <!-- link google icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -28,7 +30,7 @@
 <body>
   <header>
     <div class="top-bar">
-      <div class="top-bar-info">
+      <div class="top-bar-info desktop">
         <span class="material-symbols-outlined">
           pin_drop
         </span>
@@ -75,18 +77,24 @@
     <div class="sobre" id="sobre">
       <div class="info mt-4">
         <span class="sub-titulo">Sobre</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis quam id quam faucibus suscipit. Pellentesque fringilla dictum sapien vel efficitur. Duis ultrices diam eget nisi pharetra, eu venenatis mi euismod. Nunc sed velit non dolor convallis vulputate non nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas laoreet eget augue ac posuere. Phasellus mollis orci vitae augue volutpat, a placerat est imperdiet. Nulla sed tincidunt purus, at egestas libero. Nunc eleifend nec neque quis consequat. Fusce ultrices ultrices dolor a ornare. Ut ut felis at lacus consequat mattis nec nec ipsum. Maecenas aliquet est ac ligula eleifend euismod. Donec bibendum, nunc et semper pretium, neque purus viverra diam, non placerat nunc tellus et erat. Morbi vitae sagittis mi, in tempus nisl.</p>
+        <p>A Pousada Pinheiro em seus mais de 20 anos de vida, já atendeu diversos clientes de várias regiões, sempre com carinho e atenção. Localizada próxima a rodoviária da cidade e as margens da BR-407, é uma boa parada para turistas que estão de passagem pela cidade, além de se localizar a menos de 2 kilometros da praça Nova(Praça principal da cidade). Oferecemos opções de quartos variados, com vários tamanhos e modelos, para lhe melhor atender. Venha nos visitar! </p>
       </div>
 
-      <img class="mt-4" src="./assets/imgs/img1.png" alt="Imagem da pousada">
+      <img class="mt-4 desktop" src="./assets/imgs/img1.png" alt="Imagem da pousada">
     </div>
 
     <hr id="hr-contato">
 
     <div class="contato" id="contato">
-      <div class="contact-infos">
+      <div class="contact-infos desktop">
         <div class="grid-contato telefone">
-          <span class="contato-titles">Telefone</span>
+          <div>
+            <span class="material-symbols-outlined">
+              phone_enabled
+            </span>
+            <span class="contato-titles">Telefone</span>
+          </div>
+          
           <div class="nums">
             <span>(74)99939-4949</span> <br>
             <a href="https://contate.me/pousadapinheiro">Whats App</a>
@@ -94,11 +102,21 @@
           
         </div>
         <div class="grid-contato email">
-          <span class="contato-titles">Email</span>
+          <div>
+            <span class="material-symbols-outlined margin-mail">
+              mail
+            </span>
+            <span class="contato-titles">Email</span>
+          </div>
           <p>novapousadapinheiro@hotmail.com</p>
         </div>
         <div class=" grid-contato endereco">
-          <span class="contato-titles">Endereço</span>
+          <div>
+            <span class="material-symbols-outlined">
+              pin_drop
+            </span>
+            <span class="contato-titles">Endereço</span>
+          </div>
           <p>Av. João Durval Carneiro,
           1701,
           rodoviária,
@@ -107,6 +125,9 @@
       </div>
       <div class="contact-form">
         <span class="sub-titulo">Contato</span>
+        <span class="mobile"> 
+          (74) 99939-4949
+        </span>
         <form action="">
           <input id="nome-field" type="text" placeholder="Nome completo">
           <input id="contato-field" type="text" placeholder="Contato">
@@ -119,11 +140,18 @@
     <hr id="hr-localizacao">
 
     <div class="localizacao" id="localizacao">
+      <div>
+        <span class="sub-titulo mobile">Localização</span>
+        <span class="mobile">
+          Av. João Durval Carneiro, 1701, Rodoviária.
+        </span>
+
+      </div>
       <iframe class="mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.22815248078547!2d-40.18471898353298!3d-10.44928843406748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76d585f494fd5bd%3A0x3fb5f385a4078468!2sNova%20Pousada%20Pinheiro!5e0!3m2!1spt-BR!2sbr!4v1658154836195!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-      <div class="localizaco-info mt-4">
+      <div class="localizaco-info mt-4 desktop">
         <span class="sub-titulo">Localização</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis quam id quam faucibus suscipit. Pellentesque fringilla dictum sapien vel efficitur. Duis ultrices diam eget nisi pharetra, eu venenatis mi euismod. Nunc sed velit non dolor convallis vulputate non nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas laoreet eget augue ac posuere. Phasellus mollis orci vitae augue volutpat, a placerat est imperdiet. Nulla sed tincidunt purus, at egestas libero. Nunc eleifend nec neque quis consequat. Fusce ultrices ultrices dolor a ornare. Ut ut felis at lacus consequat mattis nec nec ipsum. Maecenas aliquet est ac ligula eleifend euismod. Donec bibendum, nunc et semper pretium, neque purus viverra diam, non placerat nunc tellus et erat. Morbi vitae sagittis mi, in tempus nisl.</p>
+        <p>Estamos localizados próximo a rodoviária de Senhor do Bonfim, na avenida João Durval Carneiro, número 1701, bairro rodoviária, nas margens da Br 407.</p>
       </div>
     </div>
 
