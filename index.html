@@ -37,27 +37,29 @@
         <p>Av. João durval Carneiro, 1701, Senhor do Bonfim - BA</p>
       </div>
 
-      <div class="top-bar-info">
+      <div class="top-bar-info ">
         <span class="material-symbols-outlined">
           phone_enabled
         </span>
         <p>(74) 99939-4949</p>
       </div>
 
-      <div class="top-bar-info">
+      <div class="top-bar-info desktop">
         <span class="material-symbols-outlined margin-mail">
           mail
         </span>
         <p>novapousadapinheiro@hotmail.com</p>
       </div>
     </div>
-
+    
     <nav class="nav-bar" id="nav-bar">
       <div id="logo">
         <a href="./index.html">Pousada <br> <span class="logo-spacing">Pinheiro<span></a>
       </div>
+        
+      <button id="btn-mobile">Menu</button>
 
-      <ul>
+      <ul id="nav">
         <li><a class="link-nav" href="#sobre">Sobre</a></li>
         <li><a class="link-nav" href="./acomodacoes.html">Acomodações</a></li>
         <li><a class="link-nav" href="#hr-localizacao">Localização</a></li>
@@ -65,7 +67,7 @@
       </ul>
     </nav>
 
-    <div class="banner">
+    <div class="banner main-banner">
       <span id="venha-nos-conhecer">Venha nos conhecer</span>
       <P>Conheça Senhor do bonfim e o melhor São João da Bahia, <br> tendo tudo pensado para sua comodidade.</P>
       <div class="botao"><a href="">Contato</a></div>
@@ -140,8 +142,8 @@
     <hr id="hr-localizacao">
 
     <div class="localizacao" id="localizacao">
-      <div>
-        <span class="sub-titulo mobile">Localização</span>
+      <div class="mobile">
+        <span class="sub-titulo">Localização</span>
         <span class="mobile">
           Av. João Durval Carneiro, 1701, Rodoviária.
         </span>
@@ -159,10 +161,11 @@
   </main>
   
   <footer>
-    <p>Avenida João durval carneiro, 1701, rodoviária, Senhor do bonfim-BA | (74) 9939-1673</p>
+    <p class="desktop">Avenida João durval carneiro, 1701, rodoviária, Senhor do bonfim-BA | (74) 9939-3949</p>
+    <p class="mobile">novapousadapinheiro@hotmail.com</p>
   </footer>
 
-  <button id="back-to-top">
+  <button id="back-to-top" class="desktop">
     <img src="./assets/imgs/icons/arrow_up.svg" alt="Back to top arrow">
   </button>
 

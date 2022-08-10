@@ -2,6 +2,10 @@
   .desktop{
     display: none;
   }
+
+  .nav-bar{
+    padding: 0px 10%;
+  }
   /* Sobre */
   .sobre{
     display: block;
@@ -28,6 +32,23 @@
     height: 300px;
   }
 
+  /* acomodações */
+  .card-room{
+    display: block;
+  }
+
+  .informations{
+    text-align: center;
+  }
+
+  .informations ul{
+    margin-top: 4rem;
+  }
+
+  .tipo-quarto{
+    margin: 15px auto;
+  }
+
 }
 
 @media (min-width: 1050px){
@@ -35,3 +56,74 @@
     display: none;
   }
 }
+
+
+#btn-mobile{
+  display: none;
+}
+
+
+@media (max-width: 1050px){
+  #btn-mobile {
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin-top: 22px;
+    text-transform: uppercase;
+    background-color: var(--g13);
+    color: white;
+    border-radius: 4px;
+    /* position: absolute;
+    right: 65px; */
+  }
+
+  #btn-mobile:hover{
+    cursor: pointer;
+  }
+  
+  .nav-bar ul{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 104px;
+    right: 0px;
+    background-color: var(--g1);
+    z-index: 1000;
+  }
+  .nav-bar ul li{
+    padding: 3px 10px;
+    margin: 10px 10px;
+    border-bottom: 1px solid var(--g14);
+  }
+
+  #nav-bar.active #nav {
+    display: block;
+  }
+}
+
+@media (max-width: 600px){
+  main > div{
+    padding: 80px 50px;
+  }
+  .banner{
+    padding: 150px 110px;
+  }
+
+  .tipo-quarto{
+    margin: 0px auto;
+    padding: 35px;
+  }
+
+  .card-room{
+    margin-top: 0px;
+  }
+
+  .banner{
+    padding: 100px 5px;
+  }
+
+  .main-banner{
+    height: 550px;
+  }
+}
+

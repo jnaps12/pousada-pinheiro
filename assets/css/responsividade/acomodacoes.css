@@ -1,0 +1,41 @@
+@media (max-width: 1350px){
+  .card-room{
+    display: block;
+  }
+
+  .informations{
+    text-align: center;
+  }
+
+  .informations ul{
+    margin-top: 4rem;
+  }
+
+  .tipo-quarto{
+    margin: 15px auto;
+  }
+
+  .card-room{
+    margin-top: 0px;
+  }
+
+  .bar-effect{
+    display: none;
+  }
+
+  .photo{
+    display: none;
+  }
+
+  .informations ul{
+    padding: 0;
+    margin-top: 20px;
+  }
+  .valor{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .banner{
+    padding: 100px 0px;
+  }
+}

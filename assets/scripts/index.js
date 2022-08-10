@@ -37,3 +37,15 @@ window.addEventListener('scroll', () => {
   }
 });
 
+
+//Menu hambúrguer 
+
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+  const navbar = document.getElementById('nav-bar');
+  navbar.classList.toggle('active');
+
+}
+
+btnMobile.addEventListener('click', toggleMenu);
